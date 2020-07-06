@@ -1,0 +1,20 @@
+Template Literals ` ` Place holder ${} dinamic
+
+Variaveis simple so armazena um valor
+
+Variaveis compostas armazenam varios valores "arrays"
+var auto = [carro0, carro1, carro2,]
+auto[3] = carro3
+
+O JS ira colocar o carro3 na possicao 3
+_______________________________________________
+
+Porem o metodo push faz isso mais facilmente
+
+var auto = [carro0, carro1, carro2,]
+auto.push(3)
+____________________________________________________________________________
+
+num.length // length nao é um metodo é um atributo por isso que nao tem parenteses
+num.sort() // Ira pegar todos os elementos e coolocar em orde crescente
+.indeOf(numero) se nao tiver o numero ira retornar -1

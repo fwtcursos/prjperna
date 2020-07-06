@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imigracao</title>
+</head>
+<body>
+    <h1>Nacionalidade</h1>
+    Qual seu pais de origem?<input type="string" name="pais" id="txt">
+    <input type="button" value="Verificar" onclick="verificar()">
+    <div id="res"></div>
+
+   <script>        
+        function verificar () {
+            var pais = 'Brasil'
+            console.log(`Vivendo em ${pais}`)
+            if (pais ==`Brasil`) {
+                console.log('Brasileiro!')
+                
+            } else {
+                console.log('Estrangeiro!')    
+}
+            pais.innerHTML = `Sua nacionalidade e <strong>${pais}Km/h</strong><p>`
+            res.innerHTML += `<p> Dirija sempre com o cinto de seguranca!</p>`
+            if (vel > 60) {
+                res.innerHTML += <p>Voce esta <strong>multado</strong> por execesso de velocidade</p>
+                
+            } 
+                
+            
+        }
+        </script>
+</body>
+
+</html>

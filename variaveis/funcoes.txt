@@ -1,0 +1,4 @@
+Funcoes sao acoes executadas assim que sao chamadas ou em decorrencia de algum Evento.
+
+Uma funcao pode receber parametros e retornar um resultado.
+ 
